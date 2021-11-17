@@ -1,0 +1,13 @@
+3. Walidacja formularzy Formik lub React Hook Form
+Przygotuj formularz, w którym użytkownik będzie wprowadzał swoje dane:
+
+imię (element input)
+email (element input)
+krótkie bio (element textarea)
+wybór płci - (element radio)
+akceptację regulaminu (nie musi istnieć ;) tutaj skorzystamy z elementu checkbox)
+Na końcu formularza powinien znajdować się przycisk do jego wysłania. Wszystkie pola są wymagane, czyli nie da się wysłać formularza do momentu wprowadzenia przez użytkownika wszystkich danych oraz akceptacji regulaminu.
+
+Jeśli jakieś pole nie zostało wypełnione, wówczas aplikacja ustawi czerwony border na tym polu, a pod polem znajdzie się komunikat: "Pole wymagane".
+
+Jeśli wszystkie informacje zostały wprowadzone, to wówczas wszystkie pola zostaną wyczyszczone (nie będzie w nich danych), a na ekranie pojawi się komunikat "Dziękujemy za wysłanie"
